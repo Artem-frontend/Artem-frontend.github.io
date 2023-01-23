@@ -1,0 +1,11 @@
+
+// example
+@mixin item ($w, $h, $bor) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $item-color;
+        width: $w;
+        height: $h;
+        border-right: $bor;
+}
